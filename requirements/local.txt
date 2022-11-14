@@ -6,3 +6,4 @@ ipython==6.0.0
 
 # this kind of upgrade is not yet supported
 ipdb>=0.0.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
