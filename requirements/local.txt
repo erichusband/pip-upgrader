@@ -2,7 +2,9 @@
 -r production.txt
 -r extra/debug.txt
 
-ipython==6.0.0
+ipython==8.10.0
 
 # this kind of upgrade is not yet supported
 ipdb>=0.0.1
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
